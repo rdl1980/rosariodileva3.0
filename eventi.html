@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventi — Rosario Di Leva</title>
+  <meta name="description" content="Incontri, presentazioni e dibattiti su intelligenza artificiale e narrativa con Rosario Di Leva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><strong>Rosario</strong> <em>Di Leva</em></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="algoritmo.html">L'algoritmo</a></li>
+      <li><a href="personaggi.html">Personaggi</a></li>
+      <li><a href="autore.html">L'Autore</a></li>
+      <li><a href="eventi.html" class="active">Eventi</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" target="_blank" rel="noopener" class="nav__cta">In libreria</a>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" role="dialog" aria-label="Menu mobile">
+  <a href="index.html">Home</a>
+  <a href="algoritmo.html">L'algoritmo</a>
+  <a href="personaggi.html">Personaggi</a>
+  <a href="autore.html">L'Autore</a>
+  <a href="eventi.html">Eventi</a>
+  <a href="contatti.html">Contatti</a>
+</div>
+
+<!-- ── HERO ─────────────────────────────────────────────────────────── -->
+<section class="eventi-hero container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">Eventi</span>
+  </nav>
+  <p class="label label-gold" style="margin-bottom:1rem;">// il libro esce dalla pagina</p>
+  <h1 class="eventi-hero__title">
+    Incontri, presentazioni,<br><em>dibattiti.</em>
+  </h1>
+  <p style="font-family:var(--font-ui);font-size:0.9375rem;color:var(--fg-muted);max-width:55ch;margin-top:1rem;">
+    Su intelligenza artificiale e narrativa.
+  </p>
+</section>
+
+<!-- ── EVENTO IN ARRIVO ───────────────────────────────────────────────── -->
+<section class="section container fade-up">
+  <div class="eventi-featured">
+    <img
+      src="https://rosariodileva.com/assets/foto%20promozionale.png"
+      alt="Rosario Di Leva — foto promozionale presentazione"
+      class="eventi-featured__img"
+      loading="lazy"
+    >
+    <div class="eventi-featured__content">
+      <div class="eventi-live-badge">
+        <span style="width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;animation:pulse 2s infinite;" aria-hidden="true"></span>
+        // in arrivo
+      </div>
+      <h2 class="eventi-featured__title">
+        La prima presentazione<br>de <em>L'algoritmo.</em>
+      </h2>
+      <p class="eventi-featured__desc">
+        A breve l'ufficialità della prima presentazione de
+        <em>L'algoritmo che governa i destini</em>. Data, luogo e tutti i dettagli
+        saranno annunciati a stretto giro.
+      </p>
+      <p style="font-family:var(--font-ui);font-size:0.875rem;color:rgba(242,237,228,0.5);margin-bottom:2rem;line-height:1.7;">
+        Un incontro per parlare di intelligenza artificiale, narrativa e delle domande
+        che il romanzo pone — e che il presente non smette di confermare.
+      </p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+        <a href="contatti.html" class="btn btn-primary">Iscriviti per sapere la data</a>
+        <a href="algoritmo.html" class="btn btn-outline">Scopri il romanzo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── ARCHIVIO ──────────────────────────────────────────────────────── -->
+<section class="section-sm container fade-up">
+  <p class="label" style="margin-bottom:1.5rem;">// archivio eventi</p>
+  <div style="border:1px solid var(--border);padding:4rem;text-align:center;">
+    <p style="font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-subtle);margin-bottom:0.75rem;">ARCHIVIO_EVENTI.log — 0 record</p>
+    <p style="font-family:var(--font-ui);font-size:0.875rem;color:var(--fg-muted);">
+      Gli eventi passati saranno documentati qui.
+    </p>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ─────────────────────────────────────────────────────── -->
+<section class="section newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner fade-up">
+      <p class="label" style="margin-bottom:1rem;">// substack</p>
+      <h2>La prima a sapere <em>delle date.</em></h2>
+      <p>Luoghi, novità e aggiornamenti sugli eventi e sui prossimi romanzi.</p>
+      <ul class="newsletter-perks">
+        <li>Gratis per sempre</li><li>Zero spam</li><li>Contenuti esclusivi</li>
+      </ul>
+      <div class="newsletter-form">
+        <input type="email" placeholder="La tua email" aria-label="Indirizzo email">
+        <a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener" class="btn btn-primary" style="white-space:nowrap;">Iscriviti</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo"><strong>Rosario</strong> <em style="color:var(--gold);font-style:italic;">Di Leva</em></div>
+        <p class="footer__tagline">Autore di techno-thriller. Sito ufficiale.</p>
+      </div>
+      <div>
+        <p class="footer__col-title">// naviga</p>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="algoritmo.html">L'algoritmo</a></li>
+          <li><a href="personaggi.html">Personaggi</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// extra</p>
+        <ul class="footer__links">
+          <li><a href="autore.html">L'Autore</a></li>
+          <li><a href="eventi.html">Eventi</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// social</p>
+        <ul class="footer__links">
+          <li><a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Rosario Di Leva · Tutti i diritti riservati</span>
+      <span><a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy</a> · <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" role="complementary">
+  <p class="cookie-banner__text">Questo sito usa <strong>Google Fonts</strong> per la tipografia. <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy policy</a></p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn-outline cookie-necessary" style="padding:0.5rem 1rem;font-size:0.6875rem;">Solo necessari</button>
+    <button class="btn btn-primary cookie-accept" style="padding:0.5rem 1rem;font-size:0.6875rem;">Accetta</button>
+  </div>
+</div>
+
+<button class="scroll-top" aria-label="Torna in cima">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="3,10 8,5 13,10"/></svg>
+</button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

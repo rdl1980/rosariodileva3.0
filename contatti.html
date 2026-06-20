@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti — Rosario Di Leva</title>
+  <meta name="description" content="Per stampa, eventi, interviste e diritti — contatta Rosario Di Leva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><strong>Rosario</strong> <em>Di Leva</em></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="algoritmo.html">L'algoritmo</a></li>
+      <li><a href="personaggi.html">Personaggi</a></li>
+      <li><a href="autore.html">L'Autore</a></li>
+      <li><a href="eventi.html">Eventi</a></li>
+      <li><a href="contatti.html" class="active">Contatti</a></li>
+    </ul>
+    <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" target="_blank" rel="noopener" class="nav__cta">In libreria</a>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" role="dialog" aria-label="Menu mobile">
+  <a href="index.html">Home</a>
+  <a href="algoritmo.html">L'algoritmo</a>
+  <a href="personaggi.html">Personaggi</a>
+  <a href="autore.html">L'Autore</a>
+  <a href="eventi.html">Eventi</a>
+  <a href="contatti.html">Contatti</a>
+</div>
+
+<!-- ── HERO ─────────────────────────────────────────────────────────── -->
+<section class="contatti-hero container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">Contatti</span>
+  </nav>
+  <p class="label label-gold" style="margin-bottom:1rem;">// per stampa, eventi, diritti</p>
+  <h1 class="contatti-hero__title">
+    Scrivimi<em>.</em>
+  </h1>
+  <p style="font-family:var(--font-ui);font-size:0.9375rem;color:var(--fg-muted);max-width:50ch;margin-top:1rem;">
+    Per richieste editoriali, interviste, presentazioni, ufficio stampa o
+    cessione dei diritti. Risposta entro 5 giorni lavorativi.
+  </p>
+</section>
+
+<!-- ── CONTATTI INNER ─────────────────────────────────────────────────── -->
+<section class="section container">
+  <div class="contatti-inner">
+
+    <div class="fade-up">
+      <p class="label" style="margin-bottom:1.5rem;">// canali diretti</p>
+
+      <div class="contatti-info__item">
+        <span class="contatti-info__key">// email</span>
+        <a href="mailto:rosario@rosariodileva.com" class="contatti-info__val">rosario@rosariodileva.com</a>
+      </div>
+
+      <div class="contatti-info__item">
+        <span class="contatti-info__key">// instagram</span>
+        <a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener" class="contatti-info__val">@rosario_di_leva_1980</a>
+      </div>
+
+      <div class="contatti-info__item">
+        <span class="contatti-info__key">// x · twitter</span>
+        <a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener" class="contatti-info__val">@rosario_di_leva</a>
+      </div>
+
+      <div class="contatti-info__item">
+        <span class="contatti-info__key">// blog</span>
+        <a href="https://rosariodileva.wordpress.com/" target="_blank" rel="noopener" class="contatti-info__val">rosariodileva.wordpress.com</a>
+      </div>
+    </div>
+
+    <div class="fade-up">
+      <p class="label" style="margin-bottom:1.5rem;">// oppure scrivi dal modulo</p>
+
+      <form class="contatti-form" action="#" method="post" novalidate>
+        <div class="form-field">
+          <label class="form-label" for="nome">Nome</label>
+          <input class="form-input" type="text" id="nome" name="nome" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="messaggio">Messaggio</label>
+          <textarea class="form-textarea" id="messaggio" name="messaggio" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">
+          Invia messaggio
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ─────────────────────────────────────────────────────── -->
+<section class="section newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner fade-up">
+      <p class="label" style="margin-bottom:1rem;">// substack</p>
+      <h2>Rimani nel <em>Loop.</em></h2>
+      <p>Anteprime esclusive, riflessioni su IA e tecnologia, aggiornamenti sui romanzi.</p>
+      <ul class="newsletter-perks">
+        <li>Gratis per sempre</li><li>Zero spam</li><li>Contenuti esclusivi</li>
+      </ul>
+      <div class="newsletter-form">
+        <input type="email" placeholder="La tua email" aria-label="Indirizzo email">
+        <a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener" class="btn btn-primary" style="white-space:nowrap;">Iscriviti</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo"><strong>Rosario</strong> <em style="color:var(--gold);font-style:italic;">Di Leva</em></div>
+        <p class="footer__tagline">Autore di techno-thriller. Sito ufficiale.</p>
+      </div>
+      <div>
+        <p class="footer__col-title">// naviga</p>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="algoritmo.html">L'algoritmo</a></li>
+          <li><a href="personaggi.html">Personaggi</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// extra</p>
+        <ul class="footer__links">
+          <li><a href="autore.html">L'Autore</a></li>
+          <li><a href="eventi.html">Eventi</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// social</p>
+        <ul class="footer__links">
+          <li><a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Rosario Di Leva · Tutti i diritti riservati</span>
+      <span><a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy</a> · <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" role="complementary">
+  <p class="cookie-banner__text">Questo sito usa <strong>Google Fonts</strong> per la tipografia. <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy policy</a></p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn-outline cookie-necessary" style="padding:0.5rem 1rem;font-size:0.6875rem;">Solo necessari</button>
+    <button class="btn btn-primary cookie-accept" style="padding:0.5rem 1rem;font-size:0.6875rem;">Accetta</button>
+  </div>
+</div>
+
+<button class="scroll-top" aria-label="Torna in cima">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="3,10 8,5 13,10"/></svg>
+</button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

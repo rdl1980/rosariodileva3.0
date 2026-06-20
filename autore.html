@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L'Autore — Rosario Di Leva</title>
+  <meta name="description" content="Rosario Di Leva — autore e professionista della tecnologia, con esperienza tra Italia, Dublino e Regno Unito.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><strong>Rosario</strong> <em>Di Leva</em></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="algoritmo.html">L'algoritmo</a></li>
+      <li><a href="personaggi.html">Personaggi</a></li>
+      <li><a href="autore.html" class="active">L'Autore</a></li>
+      <li><a href="eventi.html">Eventi</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" target="_blank" rel="noopener" class="nav__cta">In libreria</a>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" role="dialog" aria-label="Menu mobile">
+  <a href="index.html">Home</a>
+  <a href="algoritmo.html">L'algoritmo</a>
+  <a href="personaggi.html">Personaggi</a>
+  <a href="autore.html">L'Autore</a>
+  <a href="eventi.html">Eventi</a>
+  <a href="contatti.html">Contatti</a>
+</div>
+
+<!-- ── AUTHOR HERO ────────────────────────────────────────────────────── -->
+<section class="author-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">L'Autore</span>
+    </nav>
+
+    <div class="author-hero__inner">
+      <div class="author-photo-wrap fade-up">
+        <img
+          src="https://rosariodileva.com/assets/rosario.jpg"
+          alt="Rosario Di Leva, ritratto dell'autore"
+          class="author-photo"
+          width="400"
+          height="533"
+          loading="eager"
+        >
+        <p class="author-photo-caption">Rosario Di Leva · IT · IE · UK</p>
+      </div>
+
+      <div class="fade-up">
+        <p class="label label-gold" style="margin-bottom:1rem;">// l'autore</p>
+        <h1 class="author-hero__title">
+          Rosario<br><em>Di Leva.</em>
+        </h1>
+        <p class="author-hero__sub">
+          Professionista della tecnologia, narratore di sistemi e di chi li abita.
+        </p>
+
+        <div class="author-stats">
+          <div class="author-stat">
+            <span class="author-stat__value">3</span>
+            <span class="author-stat__label">Paesi vissuti</span>
+          </div>
+          <div class="author-stat">
+            <span class="author-stat__value">15+</span>
+            <span class="author-stat__label">Anni nel tech</span>
+          </div>
+          <div class="author-stat">
+            <span class="author-stat__value">02</span>
+            <span class="author-stat__label">Romanzi pubblicati</span>
+          </div>
+        </div>
+
+        <div class="author-hero__bio">
+          <p>
+            Rosario Di Leva è autore e professionista della tecnologia, con esperienza
+            tra Italia, Dublino e Regno Unito. Da anni lavora sui sistemi che governano
+            il mondo reale, e ne conosce le ombre.
+          </p>
+          <p>
+            Nei suoi romanzi trasforma dati e algoritmi in storie ad alta tensione,
+            dove ogni scelta ha un costo e nulla accade davvero per caso. La sua
+            scrittura, asciutta e a tratti chirurgica, mescola il rigore del codice
+            all'incertezza umana.
+          </p>
+        </div>
+
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem;">
+          <a href="https://rosariodileva.com/libri" target="_blank" rel="noopener" class="btn btn-primary">Scopri i romanzi</a>
+          <a href="contatti.html" class="btn btn-outline">Contatti stampa</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── EDITORIAL NOTE ─────────────────────────────────────────────────── -->
+<section class="section container fade-up">
+  <div style="max-width:72ch;margin-inline:auto;">
+    <p class="label" style="margin-bottom:1.5rem;">// nota editoriale</p>
+    <blockquote style="font-family:var(--font-serif);font-size:clamp(1.5rem,3vw,2.25rem);font-style:italic;line-height:1.5;color:var(--fg);">
+      "Scrivo di sistemi che funzionano troppo bene.
+      E degli esseri umani che ci vivono dentro."
+    </blockquote>
+    <footer style="margin-top:1.5rem;font-family:var(--font-ui);font-size:0.6875rem;color:var(--fg-muted);letter-spacing:0.08em;text-transform:uppercase;">
+      — Rosario Di Leva
+    </footer>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── CONTATTI STAMPA ────────────────────────────────────────────────── -->
+<section class="section-sm container fade-up">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;">
+    <div>
+      <p class="label" style="margin-bottom:0.75rem;">// per stampa e media</p>
+      <h2 style="font-size:clamp(1.75rem,3vw,2.5rem);margin-bottom:1rem;">
+        Richieste <em>editoriali.</em>
+      </h2>
+      <p style="font-family:var(--font-ui);font-size:0.9375rem;color:var(--fg-muted);line-height:1.7;margin-bottom:1.5rem;">
+        Per interviste, presentazioni, ufficio stampa o cessione dei diritti.
+        Risposta entro 5 giorni lavorativi.
+      </p>
+      <a href="contatti.html" class="btn btn-primary">Scrivi all'autore</a>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--border);">
+      <div style="padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+        <span class="label">Email</span>
+        <a href="mailto:rosario@rosariodileva.com" style="font-family:var(--font-ui);font-size:0.875rem;color:var(--fg-muted);transition:color 0.2s;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--fg-muted)'">rosario@rosariodileva.com</a>
+      </div>
+      <div style="padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+        <span class="label">Instagram</span>
+        <a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener" style="font-family:var(--font-ui);font-size:0.875rem;color:var(--fg-muted);transition:color 0.2s;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--fg-muted)'">@rosario_di_leva_1980</a>
+      </div>
+      <div style="padding:1.25rem 1.5rem;display:flex;justify-content:space-between;align-items:center;">
+        <span class="label">X / Twitter</span>
+        <a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener" style="font-family:var(--font-ui);font-size:0.875rem;color:var(--fg-muted);transition:color 0.2s;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--fg-muted)'">@rosario_di_leva</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ─────────────────────────────────────────────────────── -->
+<section class="section newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner fade-up">
+      <p class="label" style="margin-bottom:1rem;">// substack</p>
+      <h2>Rimani nel <em>Loop.</em></h2>
+      <p>Anteprime esclusive, riflessioni su IA e tecnologia, aggiornamenti sui romanzi.</p>
+      <ul class="newsletter-perks">
+        <li>Gratis per sempre</li><li>Zero spam</li><li>Contenuti esclusivi</li>
+      </ul>
+      <div class="newsletter-form">
+        <input type="email" placeholder="La tua email" aria-label="Indirizzo email">
+        <a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener" class="btn btn-primary" style="white-space:nowrap;">Iscriviti</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo"><strong>Rosario</strong> <em style="color:var(--gold);font-style:italic;">Di Leva</em></div>
+        <p class="footer__tagline">Autore di techno-thriller. Sito ufficiale.</p>
+      </div>
+      <div>
+        <p class="footer__col-title">// naviga</p>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="algoritmo.html">L'algoritmo</a></li>
+          <li><a href="personaggi.html">Personaggi</a></li>
+          <li><a href="https://rosariodileva.com/noraya" target="_blank" rel="noopener">Noraya</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// extra</p>
+        <ul class="footer__links">
+          <li><a href="autore.html">L'Autore</a></li>
+          <li><a href="eventi.html">Eventi</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// social</p>
+        <ul class="footer__links">
+          <li><a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Rosario Di Leva · Tutti i diritti riservati</span>
+      <span><a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy</a> · <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" role="complementary">
+  <p class="cookie-banner__text">Questo sito usa <strong>Google Fonts</strong> per la tipografia. Nessun cookie di profilazione. <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy policy</a></p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn-outline cookie-necessary" style="padding:0.5rem 1rem;font-size:0.6875rem;">Solo necessari</button>
+    <button class="btn btn-primary cookie-accept" style="padding:0.5rem 1rem;font-size:0.6875rem;">Accetta</button>
+  </div>
+</div>
+
+<button class="scroll-top" aria-label="Torna in cima">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="3,10 8,5 13,10"/></svg>
+</button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

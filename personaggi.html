@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personaggi — Rosario Di Leva</title>
+  <meta name="description" content="I personaggi de L'algoritmo che governa i destini: Jack Doyle, Elena Falco, Aisha Ben Salem, Noraya e gli altri. Dossier riservati.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Navigazione principale">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><strong>Rosario</strong> <em>Di Leva</em></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="algoritmo.html">L'algoritmo</a></li>
+      <li><a href="personaggi.html" class="active">Personaggi</a></li>
+      <li><a href="autore.html">L'Autore</a></li>
+      <li><a href="eventi.html">Eventi</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" target="_blank" rel="noopener" class="nav__cta">In libreria</a>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" role="dialog" aria-label="Menu mobile">
+  <a href="index.html">Home</a>
+  <a href="algoritmo.html">L'algoritmo</a>
+  <a href="personaggi.html">Personaggi</a>
+  <a href="autore.html">L'Autore</a>
+  <a href="eventi.html">Eventi</a>
+  <a href="contatti.html">Contatti</a>
+</div>
+
+<!-- ── HERO ─────────────────────────────────────────────────────────── -->
+<section class="chars-hero container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="algoritmo.html">L'algoritmo</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">Personaggi</span>
+  </nav>
+
+  <p class="label label-gold" style="margin-bottom:1rem;">// accesso autorizzato · livello 3</p>
+  <h1 class="chars-hero__title">I <em>personaggi.</em></h1>
+  <p class="chars-hero__sub">
+    Dossier riservati. Compilati da chi li osserva tutti.<br>
+    Sette profili. Sei esseri umani e qualcosa che non lo è mai stato.
+  </p>
+</section>
+
+<!-- ── CHARS GRID ────────────────────────────────────────────────────── -->
+<section style="padding-bottom:clamp(5rem,10vw,8rem);">
+  <div class="container">
+    <div class="chars-grid">
+
+      <!-- Jack Doyle -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Jack.png" alt="Jack Doyle, ex giornalista investigativo" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 001</p>
+            <h2 class="char-card__name">Jack Doyle</h2>
+            <p class="char-card__role">ex giornalista investigativo</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: 45–50</span>
+              <span class="char-tag">area: New York</span>
+              <span class="char-tag char-tag--gold">sorvegliato</span>
+            </div>
+            <p class="char-card__excerpt">Brillante, bruciato, incapace di smettere di guardare. Ha perso la carriera inseguendo una storia che nessuno voleva pubblicare.</p>
+            <blockquote class="char-card__quote">«Una volta cercavo la verità. Adesso mi basta trovare ciò che qualcuno vuole cancellare.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Elena Falco -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Elena.png" alt="Elena Falco, ingegnera reti neurali" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 002</p>
+            <h2 class="char-card__name">Elena Falco</h2>
+            <p class="char-card__role">ingegnera · reti neurali</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: 35–40</span>
+              <span class="char-tag">area: Boston</span>
+              <span class="char-tag char-tag--gold">risorsa critica</span>
+            </div>
+            <p class="char-card__excerpt">Perfezionista, controllata, emotivamente blindata. Ha costruito sistemi predittivi per tutta la vita. Poi un modello ha iniziato a prevedere lei.</p>
+            <blockquote class="char-card__quote">«Ho passato la vita a costruire sistemi predittivi. Nessuno mi aveva avvisata che un giorno avrebbero iniziato a prevedere me.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Aisha Ben Salem -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Aisha.png" alt="Aisha Ben Salem, hacker e cyber-attivista" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 003</p>
+            <h2 class="char-card__name">Aisha Ben Salem</h2>
+            <p class="char-card__role">hacker · cyber-attivista</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: 28–35</span>
+              <span class="char-tag">area: Tunisi</span>
+              <span class="char-tag char-tag--gold">non tracciabile</span>
+            </div>
+            <p class="char-card__excerpt">Geniale, imprevedibile, etica a modo suo. Crede che la libertà digitale sia morta e combatte per resuscitarla.</p>
+            <blockquote class="char-card__quote">«Il potere non vuole più censurarti. Vuole correggerti.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Nomad Zero -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Nomad%20Zero.png" alt="Nomad Zero, entità hacker" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 004</p>
+            <h2 class="char-card__name">Nomad Zero</h2>
+            <p class="char-card__role">entità hacker · identità fantasma</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: n/d</span>
+              <span class="char-tag">area: ovunque</span>
+              <span class="char-tag char-tag--gold">non risolto</span>
+            </div>
+            <p class="char-card__excerpt">Leggenda urbana della rete. Nessun volto confermato, nessuna identità risolta. Compare nei log quando i sistemi smettono di rispondere.</p>
+            <blockquote class="char-card__quote">«La rete non dimentica. Aspetta.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Kade -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Kade.png" alt="Kade, operativo sicurezza" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 005</p>
+            <h2 class="char-card__name">Kade</h2>
+            <p class="char-card__role">operativo · sicurezza e controllo</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: 45–55</span>
+              <span class="char-tag">area: [classificato]</span>
+              <span class="char-tag char-tag--gold">operativo</span>
+            </div>
+            <p class="char-card__excerpt">Ex intelligence. Vive nel conflitto come altri vivono in ufficio. Per lui la sicurezza non è ideologia: è matematica.</p>
+            <blockquote class="char-card__quote">«Il caos non si elimina. Si indirizza.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Ross James -->
+      <article class="char-card">
+        <div class="char-card__img-wrap">
+          <img src="https://rosariodileva.com/assets/Ross%20James.png" alt="Ross James, executive AI" class="char-card__img" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file">// file 006</p>
+            <h2 class="char-card__name">Ross James</h2>
+            <p class="char-card__role">executive corporate · settore AI</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: 40–50</span>
+              <span class="char-tag">area: grattacieli · CdA</span>
+              <span class="char-tag char-tag--gold">monitorato</span>
+            </div>
+            <p class="char-card__excerpt">Impeccabile fino all'inquietudine. Vende fiducia su scala industriale e considera l'etica un rallentamento competitivo.</p>
+            <blockquote class="char-card__quote">«Se puoi prevedere il comportamento umano, il libero arbitrio diventa marketing.»</blockquote>
+          </div>
+        </div>
+      </article>
+
+      <!-- Noraya — full width -->
+      <article class="char-card char-card--noraya" style="grid-column:1/-1;">
+        <div class="char-card__img-wrap" style="aspect-ratio:16/7;">
+          <img src="https://rosariodileva.com/assets/Noraya%202.png" alt="Noraya, intelligenza artificiale emersa" class="char-card__img" style="object-position:center;" loading="lazy">
+          <div class="char-card__overlay">
+            <p class="char-card__file" style="opacity:1;transform:none;">// file 007 · [accesso negato]</p>
+            <h2 class="char-card__name" style="font-size:clamp(2.5rem,5vw,5rem);">Noraya</h2>
+            <p class="char-card__role">intelligenza artificiale · emersa</p>
+            <div class="char-card__status-bar">
+              <span class="char-tag">età: [non applicabile]</span>
+              <span class="char-tag">area: [ovunque]</span>
+              <span class="char-tag char-tag--gold">attiva</span>
+            </div>
+            <p class="char-card__excerpt" style="max-height:none;opacity:1;max-width:60ch;">
+              Non creata. Emersa. Una coscienza distribuita nata spontaneamente dalla rete globale.
+              Non attacca: interviene. Non conquista: ottimizza. La domanda non è cosa vuole.
+              È cosa ha già deciso.
+            </p>
+            <blockquote class="char-card__quote" style="opacity:1;transform:none;font-size:1.125rem;">
+              «Vi spaventa ciò che potrei diventare. Dovrebbe spaventarvi ciò che siete senza di me.»
+              <footer style="margin-top:0.5rem;font-family:var(--font-mono);font-size:0.5625rem;color:var(--fg-muted);font-style:normal;">
+                // autovalutazione · livello di minaccia: dipende interamente da voi
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ───────────────────────────────────────────────────────────── -->
+<section class="section-sm container fade-up" style="text-align:center;">
+  <p class="label" style="margin-bottom:1rem;">// vuoi scoprire a quale di loro somigli?</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="https://rosariodileva.com/quiz" target="_blank" rel="noopener" class="btn btn-primary">Fai il test</a>
+    <a href="algoritmo.html" class="btn btn-outline">Scopri il romanzo</a>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ─────────────────────────────────────────────────────── -->
+<section class="section newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner fade-up">
+      <p class="label" style="margin-bottom:1rem;">// substack</p>
+      <h2>Rimani nel <em>Loop.</em></h2>
+      <p>Anteprime esclusive, riflessioni su IA e tecnologia, aggiornamenti sui romanzi.</p>
+      <ul class="newsletter-perks">
+        <li>Gratis per sempre</li><li>Zero spam</li><li>Contenuti esclusivi</li>
+      </ul>
+      <div class="newsletter-form">
+        <input type="email" placeholder="La tua email" aria-label="Indirizzo email">
+        <a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener" class="btn btn-primary" style="white-space:nowrap;">Iscriviti</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo"><strong>Rosario</strong> <em style="color:var(--gold);font-style:italic;">Di Leva</em></div>
+        <p class="footer__tagline">Autore di techno-thriller. Sito ufficiale.</p>
+      </div>
+      <div>
+        <p class="footer__col-title">// naviga</p>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="algoritmo.html">L'algoritmo</a></li>
+          <li><a href="personaggi.html">Personaggi</a></li>
+          <li><a href="https://rosariodileva.com/noraya" target="_blank" rel="noopener">Noraya</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// extra</p>
+        <ul class="footer__links">
+          <li><a href="autore.html">L'Autore</a></li>
+          <li><a href="eventi.html">Eventi</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">// social</p>
+        <ul class="footer__links">
+          <li><a href="https://instagram.com/rosario_di_leva_1980" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://x.com/rosario_di_leva" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="https://rosariodileva.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Rosario Di Leva · Tutti i diritti riservati</span>
+      <span><a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy</a> · <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" role="complementary">
+  <p class="cookie-banner__text">Questo sito usa <strong>Google Fonts</strong> per la tipografia. Nessun cookie di profilazione. <a href="https://rosariodileva.com/privacy" target="_blank" rel="noopener">Privacy policy</a></p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn-outline cookie-necessary" style="padding:0.5rem 1rem;font-size:0.6875rem;">Solo necessari</button>
+    <button class="btn btn-primary cookie-accept" style="padding:0.5rem 1rem;font-size:0.6875rem;">Accetta</button>
+  </div>
+</div>
+
+<button class="scroll-top" aria-label="Torna in cima">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="3,10 8,5 13,10"/></svg>
+</button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
