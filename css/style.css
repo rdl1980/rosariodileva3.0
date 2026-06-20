@@ -888,11 +888,12 @@ em { font-style: italic; color: var(--gold); }
 .char-card__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(11,12,15,0.95) 0%, rgba(11,12,15,0.4) 45%, transparent 70%);
+  background: linear-gradient(to top, rgba(11,12,15,0.98) 0%, rgba(11,12,15,0.6) 40%, transparent 70%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 1.5rem;
+  overflow: hidden;
 }
 
 .char-card__file {
@@ -909,9 +910,10 @@ em { font-style: italic; color: var(--gold); }
 
 .char-card__name {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 400;
   margin-bottom: 0.25rem;
+  line-height: 1.1;
 }
 
 .char-card__role {
@@ -925,9 +927,9 @@ em { font-style: italic; color: var(--gold); }
 
 .char-card__status-bar {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .char-tag {
@@ -941,29 +943,36 @@ em { font-style: italic; color: var(--gold); }
 .char-tag--gold { border-color: var(--border-gold); color: var(--gold); }
 
 .char-card__excerpt {
-  font-size: 0.875rem;
-  line-height: 1.65;
+  font-size: 0.8125rem;
+  line-height: 1.6;
   color: rgba(242,237,228,0.65);
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.4s var(--ease), opacity 0.3s var(--ease);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .char-card:hover .char-card__excerpt {
-  max-height: 6rem;
+  max-height: 5rem;
   opacity: 1;
 }
 
 .char-card__quote {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-style: italic;
   color: rgba(242,237,228,0.8);
   opacity: 0;
   transform: translateY(8px);
   transition: all 0.35s var(--ease) 0.1s;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .char-card:hover .char-card__quote { opacity: 1; transform: translateY(0); }
@@ -1073,6 +1082,7 @@ em { font-style: italic; color: var(--gold); }
 .eventi-featured__img {
   aspect-ratio: 4/3;
   object-fit: cover;
+  object-position: top center;
   width: 100%;
   filter: grayscale(0.3) brightness(0.85);
 }
